@@ -124,14 +124,12 @@
         }
         
         .case-study-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin: 40px 0;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 40px auto;
+            max-width: 800px;
+        }
         
         .case-study-item {
             background: #1a1a1a;
@@ -433,6 +431,10 @@
             }
             
             .process-steps {
+                grid-template-columns: 1fr;
+            }
+            
+            .case-study-grid {
                 grid-template-columns: 1fr;
             }
         }
